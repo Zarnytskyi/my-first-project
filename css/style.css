@@ -139,3 +139,42 @@ button{
     color: #323232;
     transform: scale(1.1);
 }
+.button-block {
+    position: relative;
+    top: -75px;
+    margin: 0 auto;
+    background: url('../img/beFirst.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    max-width: 950px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-block p {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.updates-button {
+    width: 160px;
+    height: 50px;
+    background-color: #323232;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.updates-button:hover {
+    background-color: white;
+    border: 1px solid #323232;
+    color: #323232;
+    transform: scale(1.1);
+}
