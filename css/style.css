@@ -1,0 +1,54 @@
+@import url(reset.css);
+
+body {
+    font-family: 'Inter', sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.cookies {
+    margin: 10px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    z-index: 1;
+    border-radius: 15px;
+}
+.header3{
+    font-size: 19;
+    font-weight: bold;
+}
+.cook{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.cook p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.cookies-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.link{
+    text-decoration: underline blue;
+    color: blue;
+}
+.policy{
+    border: 2px solid black;
+}
+.hide {
+    background-color: #324FBE;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+.hide:hover {
+    background-color: white;
+    border:1px solid #324FBE;
+    color: #324FBE;
+}
+
