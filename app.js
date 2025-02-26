@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll(".hide");
 
-    buttons.forEach(buttons =>{
+    buttons.forEach(button =>{
         document.addEventListener('click', ()=>{
             const section = document.querySelector(".cookies");
 

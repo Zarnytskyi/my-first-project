@@ -88,6 +88,7 @@ text-transform: uppercase;
     margin: 0 auto;
     height: 100vh;
     width: 65%;
+    top: -25px;
 }
 .container button{
     justify-content: start;
@@ -129,7 +130,7 @@ button{
     background-color: #323232;
     color: white;
     position: relative;
-    top: -50px;
+    top: -40px;
     border: none;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -141,7 +142,7 @@ button{
 }
 .button-block {
     position: relative;
-    top: -75px;
+    top: -65px;
     margin: 0 auto;
     background: url('../img/beFirst.png');
     background-size: cover;
@@ -305,7 +306,6 @@ button{
         font-weight: bold;
         color: #333;
     }
-    
 
     .border-section {
         width: 1px;
@@ -375,4 +375,57 @@ button{
     .sold-out {
         font-size: 1.5em;
         color: white;
+    }
+    .info-container {
+        background-color: #323232;
+        color: white;
+        padding: 100px;
+    }
+    
+    .first-info-poster-conteiner {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "text1 foto1"
+            "foto2 text2";
+        align-items: center;
+    }
+    
+    .text-area1 {
+        grid-area: text1;
+    }
+    
+    .Img1 {
+        grid-area: foto1;
+        height: 597px;
+        width: 496px;
+    }
+    
+    .Img2 {
+        grid-area: foto2;
+        height: 597px;
+        width: 496px;
+    }
+    
+    .text-area2 {
+        grid-area: text2;
+    }
+    
+    .text-area {
+        font-size: 17px;
+        font-family: 'Inter', sans-serif;
+        max-width: 45%;
+    }
+    
+    .header-info {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .content-info {
+        margin-top: 10px;
+        font-size: 17px;
     }
