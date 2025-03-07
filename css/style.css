@@ -429,3 +429,61 @@ button{
         margin-top: 10px;
         font-size: 17px;
     }
+
+    .reasion-container {
+        display: flex;
+        background-color: #EAEAEA;
+        flex-direction: column;
+        gap: 50px;
+        padding: 100px;
+    }
+    .reasion-title {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .reasion-poster-conteiner {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "area1 img1""img2 area2""area3 img3";
+        align-items: center;
+    }
+    .text-sphere {
+        grid-area: area1;
+        max-width: 70%
+    }
+    .text-sphere2 {
+        grid-area: area2;
+        max-width: 70%
+    }
+    .text-sphere3 {
+        grid-area: area3;
+        max-width: 70%
+    }
+    .header-info2 {
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-wrap: wrap;
+    }
+    .content-info {
+    }
+    .Foto1 {
+        grid-area: img1;
+        width: 600px;
+        height: 350px;
+    }
+    .Foto2 {
+        grid-area: img2;
+        width: 600px;
+        height: 350px;
+    }
+    .Foto3 {
+        grid-area: img3;
+        width: 600px;
+        height: 350px;
+    }
