@@ -487,3 +487,181 @@ button{
         width: 600px;
         height: 350px;
     }
+
+    .endless {
+        background-color: #323232;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 100px 0px 100px 0px;
+        gap: 100px;
+    }
+    .header_of_priority {
+        font-size: 52px;
+        font-weight: bold;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .conteiner_shell {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .section_priority {
+        display: flex;
+        flex-direction: column;
+        max-width: 20%;
+    }
+
+    .section_priority span {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .section_priority p {
+        color: #FFFFFF;
+        text-align:center;
+        font-size: 18px;
+    }
+    .partner-section{
+        position: relative;
+        top: -65px;
+        margin: 0 auto;
+        background: url('../img/42009c9533a762d2322c3232df439d24.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        display: flex;
+        max-width: 950px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .partner_container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 65%;
+    }
+    .partner_header {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .partner_text {
+        font-size: 18px;
+    }
+    .partner_btn {
+
+            width: 160px;
+            height: 50px;
+            background-color: #FFFFFF;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .partner_btn:hover{
+        background-color: #fcdd3d;
+        border: 1px solid #FFFFFF;
+        color: #323232;
+        transform: scale(1.1);
+    }
+
+    .subscribe-section {
+        background-color: #EAEAEA;
+        margin: 0 auto;
+        }
+    .subscride-shell {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe_container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .sub-header {
+        font-size: 52px;
+        font-weight: 800;
+    }
+    .sub-text {
+    }
+
+    .sub-info{
+        max-width: 48%;
+    }
+    .sub-img{
+        width: 380px;
+        height: 250px;
+        position: relative;
+        top: -160px;
+        left: -50px;
+    }
+    .sub-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        top: -65px;
+    }
+    .sub_input_container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .input-container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .sub-btn{
+        width: 160px;
+        height: 50px;
+        background-color: #323232;
+        color: white;
+        border: none;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .sub-btn:hover {
+        background-color: white;
+        border: 1px solid #323232;
+        color: #323232;
+        transform: scale(1.1);
+    }
+    
+    #sub-first-name{
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        height: 42px;
+        min-width: 360px;
+    }
+
+    #sub-last-name{
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        height: 42px;
+        min-width: 360px;
+    }
+
+    #sub-email{
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        height: 42px;
+        min-width: 360px;
+    }
+
+    #sub-check{
+        margin-left: 20px;
+        border-radius: 20px;
+        border: 2px solid #FFFFFF;
+    }
