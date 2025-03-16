@@ -1,4 +1,5 @@
-@import url(reset.css);
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
@@ -725,3 +726,83 @@ button{
         color: #FFFFFF;
         transform: scale(1.1);
     }
+    .Partnership {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        margin: 0 auto;
+        align-items: center;
+        gap: 100px;
+        padding: 100px;
+    }
+    .header_of_partnership {
+        font-size: 63px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .grid_of_logo {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+    }
+        .accordion {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+          }
+          
+          .accordion-item {
+            border-bottom: 1px solid #ddd;
+            background: #f0f0f0; 
+            transition: background 0.3s ease;
+          }
+          
+          .accordion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 15px 20px;
+            font-weight: bold;
+            transition: background 0.3s, color 0.3s;
+          }
+          
+          .accordion-header:hover {
+            background: #e6e6e6;
+          }
+          
+          .arrow {
+            transition: transform 0.3s;
+          }
+          
+          .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.3s ease;
+            padding: 0 20px;
+            background: white;
+          }
+          
+          .accordion-content p {
+            margin: 15px 0;
+          }
+          
+          .accordion-item.active {
+            background: #ffffff; 
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.1); 
+          }
+          
+          .accordion-item.active .accordion-content {
+            max-height: 200px; 
+            padding: 15px 20px;
+          }
+          
+          .accordion-item.active .arrow {
+            transform: rotate(180deg);
+          }
+          
