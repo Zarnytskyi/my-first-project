@@ -805,4 +805,376 @@ button{
           .accordion-item.active .arrow {
             transform: rotate(180deg);
           }
+          .footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding:40px;
+            background: #2d2d2d;
+            color: white;
+            flex-wrap: wrap;
+            font-family: Arial, sans-serif;
+          }
           
+          .footer-left .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+          }
+          
+          .footer-left .subtitle {
+            font-size: 12px;
+            color: #b0b0b0;
+            margin: 5px 0 0;
+          }
+          
+          .visit-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            margin-bottom: 10px;
+          }
+          
+          .visit-btn:hover {
+            background: #e6e6e6;
+          }
+          
+          .footer-right {
+            text-align: right;
+          }
+          
+          .footer-links {
+            margin-top: 10px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            font-size: 12px;
+          }
+          
+          .footer-links a {
+            color: #b0b0b0;
+            text-decoration: none;
+            transition: color 0.3s;
+          }
+          
+          .footer-links a:hover {
+            color: white;
+          }
+          
+          .footer-links span {
+            color: #4caf50;
+            font-weight: bold;
+          }
+          
+          @media (max-width: 960px) {
+            .container {
+                width: 90%;
+            }
+        
+            .header_tittle {
+                font-size: 40px;
+            }
+        
+            .header_content {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        
+            .header_content img {
+                width: 250px;
+                height: 250px;
+            }
+        
+            .button-block {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+        
+            .button-block p {
+                font-size: 30px;
+            }
+        
+            .container-2 {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .column:nth-child(2),
+            .column:nth-child(3) {
+                padding-top: 0;
+            }
+        
+            .order-list-header {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+        
+            .order-list-buttons {
+                padding: 50px;
+            }
+        
+            .first-info-poster-conteiner {
+                grid-template-areas:
+                    "text1 text1"
+                    "foto1 foto1"
+                    "text2 text2"
+                    "foto2 foto2";
+            }
+        
+            .text-area {
+                max-width: 100%;
+                text-align: center;
+            }
+        
+            .reasion-poster-conteiner {
+                grid-template-areas:
+                    "area1 area1"
+                    "img1 img1"
+                    "area2 area2"
+                    "img2 img2"
+                    "area3 area3"
+                    "img3 img3";
+            }
+        
+            .conteiner_shell {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .section_priority {
+                max-width: 80%;
+            }
+        
+            .subscribe_container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        
+            .sub-img {
+                top: 0;
+                left: 0;
+            }
+        
+            .video-conatainer {
+                flex-direction: column;
+                align-items: center;
+                left: 0;
+            }
+        
+            .block-wth-btn {
+                padding: 30px;
+            }
+        }
+        @media (max-width: 720px) {
+            .header_tittle {
+                font-size: 30px;
+            }
+        
+            .header_content p {
+                font-size: 16px;
+            }
+        
+            .button-block p {
+                font-size: 24px;
+            }
+        
+            .children {
+                width: 100%;
+            }
+        
+            .order-list-buttons {
+                padding: 20px;
+            }
+        
+            .pricing-card {
+                flex-direction: column;
+                height: auto;
+            }
+        
+            .price-section,
+            .info-section,
+            .status-section {
+                padding: 10px;
+            }
+        
+            .border-section {
+                display: none;
+            }
+        
+            .first-info-poster-conteiner,
+            .reasion-poster-conteiner {
+                grid-gap: 20px;
+            }
+        
+            .header-info,
+            .header-info2 {
+                font-size: 24px;
+            }
+        
+            .content-info {
+                font-size: 14px;
+            }
+        
+            .sub-header {
+                font-size: 36px;
+            }
+        
+            .input-container {
+                flex-direction: column;
+            }
+        
+            #sub-first-name,
+            #sub-last-name,
+            #sub-email {
+                min-width: 100%;
+            }
+        
+            .video-img img {
+                width: 100%;
+                height: auto;
+            }
+        
+            .block-wth-btn {
+                padding: 20px;
+            }
+        }
+        @media (max-width: 430px) {
+            .header_tittle {
+                font-size: 24px;
+            }
+        
+            .header_content p {
+                font-size: 14px;
+            }
+        
+            .button-block p {
+                font-size: 20px;
+            }
+        
+            .button-block {
+                padding: 10px;
+            }
+        
+            .children img {
+                width: 200px;
+                height: 250px;
+            }
+        
+            .order-list-header img {
+                width: 300px;
+                height: auto;
+            }
+        
+            .order-list-buttons {
+                padding: 10px;
+            }
+        
+            .pricing-card {
+                width: 100%;
+            }
+        
+            .first-info-poster-conteiner,
+            .reasion-poster-conteiner {
+                grid-gap: 10px;
+            }
+        
+            .header-info,
+            .header-info2 {
+                font-size: 20px;
+            }
+        
+            .content-info {
+                font-size: 12px;
+            }
+        
+            .sub-header {
+                font-size: 28px;
+            }
+        
+            .sub-img {
+                width: 250px;
+                height: auto;
+            }
+        
+            .video-conatainer {
+                padding: 20px;
+            }
+        
+            .block-wth-btn {
+                padding: 10px;
+            }
+        
+            .header_of_partnership {
+                font-size: 36px;
+            }
+        }
+        @media (max-width: 320px) {
+            .header_tittle {
+                font-size: 20px;
+            }
+        
+            .header_content p {
+                font-size: 12px;
+            }
+        
+            .button-block p {
+                font-size: 18px;
+            }
+        
+            .children img {
+                width: 150px;
+                height: 200px;
+            }
+        
+            .order-list-header img {
+                width: 250px;
+            }
+        
+            .pricing-card {
+                width: 100%;
+            }
+        
+            .first-info-poster-conteiner,
+            .reasion-poster-conteiner {
+                grid-gap: 5px;
+            }
+        
+            .header-info,
+            .header-info2 {
+                font-size: 18px;
+            }
+        
+            .content-info {
+                font-size: 10px;
+            }
+        
+            .sub-header {
+                font-size: 24px;
+            }
+        
+            .sub-img {
+                width: 200px;
+            }
+        
+            .video-conatainer {
+                padding: 10px;
+            }
+        
+            .block-wth-btn {
+                padding: 5px;
+            }
+        
+            .header_of_partnership {
+                font-size: 28px;
+            }
+        }
